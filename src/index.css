@@ -64,6 +64,7 @@ header input {
 
 p {
   font-size: 0.9em;
+  
 }
 
 .main {
@@ -83,6 +84,9 @@ p {
 
 .todoItem p {
   flex: 1;
+  white-space: normal; /* 允许自动换行 */
+  max-width: 90%;
+  word-wrap: break-word; /* 长单词在必要时断开 */
 }
 
 .actionsContainer {
